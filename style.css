@@ -1,0 +1,58 @@
+*{
+    margin: auto 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.A2{
+    display: flex;
+    list-style: none;
+    background-color: rgb(0, 255, 115);
+    width: 100%;
+    position: fixed;
+
+}
+li{
+    padding: 20px;
+}
+a{
+    color: beige;
+    text-decoration: none;
+}
+.push{
+    margin-left: auto;
+}
+
+/* @media screen and (min-width: 880px) {
+     .A2{
+      font-style:italic  ;
+    
+  } */
+
+  
+.A3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url("https://images.pexels.com/photos/704971/pexels-photo-704971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: brown; */
+}
+.A4{
+     background-color:antiquewhite; 
+    display: grid;
+    gap: 20px;
+    
+    grid-template-columns: repeat(auto-fill,  minmax(200px,1fr));
+}
+.A5{
+    padding: 15px ;
+    background-color: black;
+    
+}
+button{
+    background-color: burlywood;
+}
